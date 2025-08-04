@@ -1,5 +1,5 @@
 {% set name = "pygfunction" %}
-{% set version = "2.3.0" %}
+{% set version = "2.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pygfunction-{{ version }}.tar.gz
-  sha256: 2242c7cfeeb089e0aecade7a3b69404a38cbf542c56cc0b74b566f9556d40a3b
+  sha256: 8b319b88ae90dcc625f849cfa6275a1e2e5c884225fff8fc65bb2c20a9bac933
 
 build:
   noarch: python
